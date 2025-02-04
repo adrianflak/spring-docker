@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "http://135.224.16.69:8080/api",
+  baseURL: "http://13.93.205.222:8080/api",
   httpsAgent: false,
   headers: { "Content-Type": "application/json" },
   withCredentials: false // WYMAGANE dla Spring Security
